@@ -6,9 +6,9 @@
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "cd server && npm run dev",
     "dev:client": "cd client && npm run dev",
-    "prisma:generate": "cd server && npx prisma generate",
-    "prisma:push": "cd server && npx prisma db push",
-    "postinstall": "cd server && npx prisma generate"
+    "prisma:generate": "cd client && npx prisma generate",
+    "prisma:push": "cd client && npx prisma db push",
+    "postinstall": "cd client && node scripts/postinstall.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
