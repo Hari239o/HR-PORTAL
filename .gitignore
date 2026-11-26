@@ -7,6 +7,8 @@ yarn-debug.log*
 yarn-error.log*
 scratch/
 geonixa-hrportal-*.json
+*-firebase-adminsdk-*.json
+attendance-geonixa-*.json
 client/.next/
 **/.next/
 **/node_modules/
