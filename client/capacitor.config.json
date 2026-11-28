@@ -4,7 +4,10 @@
   "webDir": "public",
   "server": {
     "url": "https://ems.geonixa.com/",
-    "cleartext": true
+    "cleartext": false,
+    "allowNavigation": [
+      "ems.geonixa.com"
+    ]
   },
   "plugins": {
     "SplashScreen": {
